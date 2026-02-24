@@ -1,0 +1,9 @@
+baseURL = "https://solnix-lang.github.io/"
+title = "Solnix Documentation"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/google/docsy"
