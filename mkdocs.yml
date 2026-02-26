@@ -1,0 +1,104 @@
+site_name: Solnix Programming Language
+site_url: https://solnix.org/docs/
+repo_name: solnix
+repo_url: https://github.com/solnix/solnix
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    - navigation.path
+    - navigation.indexes
+    - content.diagram.mermaid
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  version:
+    provider: mike
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Overview:
+      - Why Solnix?: overview/why-solnix.md
+      - Roadmap: overview/roadmap.md
+  - Getting Started:
+      - Installation: getting-started/installation.md
+      - Quickstart: getting-started/quickstart.md
+      - Toolchain: getting-started/toolchain.md
+  - Language:
+      - Types: language/types.md
+      - Registers: language/reg.md
+      - Immediates: language/imm.md
+      - Control Flow: language/control_flow.md
+      - Memory Rules: language/memory_rules.md
+      - Heap: language/heap.md
+      - Maps: language/maps.md
+      - Units: language/units.md
+      - Events: language/events.md
+      - Context Helpers: language/ctx_helpers.md
+  - Compiler:
+      - Architecture: compiler/architecture.md
+      - IR Design: compiler/ir-design.md
+      - codegen: compiler/codegen.md
+  - eBPF:
+      - Overview: ebpf/overview.md
+      - Program Types: ebpf/program-types.md
+      - Maps: ebpf/maps.md
+      - Helpers: ebpf/helpers.md
+      - Verifier: ebpf/verifier.md
+      - Limitations: ebpf/limitations.md
+      - Memory Model: ebpf/memory-model.md
+  - Examples:
+      - XDP Packet Dropper: examples/xdp-drop-all.md
+      - Process Exit Counter: examples/process-exit-counter.md
+      - Process Fork Monitor: examples/process-fork-monitor.md
+      - Sys Openat Counter: examples/sys-openat-counter.md
+      - Execve Filename Monitor: examples/execve-filename-monitor.md
+  
+  - Release Notes:
+      - v0.2.0: release-notes/v0.2.0.md
+      - v0.1.0: release-notes/v0.1.0.md
+      - Future: release-notes/future.md
+
+  - Contributing:
+      - Style Guide: contributing/style-guide.md
+      - Compiler Contribution: contributing/compiler-contrib.md
+      - Docs Contribution: contributing/docs-contrib.md

@@ -1,0 +1,183 @@
+:root {
+    /* Light Theme Tokens */
+    --bg: #faf9f9;
+    --surface: #fff;
+    --surface-secondary: #f6f3f3;
+    --text: #1a1a1a;
+    --text-secondary: #5f5f5f;
+    --muted: #8a8a8a;
+    --border: #e5d6d6;
+    --border-light: #f2eaea;
+    --primary: #b11217;
+    --primary-hover: #8e0f13;
+    --accent: #0f766e;
+    --shadow-sm: 0 1px 3px #b1121714;
+    --shadow-md: 0 4px 12px #b112171f;
+    --shadow-lg: 0 12px 24px #b1121726;
+    --md-sidebar-width: 18rem;
+}
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: var(--primary);
+    --md-primary-fg-color--dark: var(--primary-hover);
+    --md-accent-fg-color: var(--accent);
+    --md-default-bg-color: var(--bg);
+    --md-default-fg-color: var(--text);
+    --md-default-fg-color--light: var(--text-secondary);
+    --md-code-bg-color: var(--surface-secondary);
+    --md-code-fg-color: var(--text);
+    --md-typeset-color: var(--text);
+    --md-typeset-a-color: var(--primary);
+
+}
+
+[data-md-color-scheme="slate"],
+html.dark,
+.dark {
+    --bg: #0f0c0d;
+    --surface: #181314;
+    --surface-secondary: #21191a;
+    --text: #f5f5f5;
+    --text-secondary: #cfcfcf;
+    --muted: #8b8b8b;
+    --border: #2e1f22;
+    --border-light: #3a262a;
+    --primary: #e11d2e;
+    --primary-hover: #be0f1e;
+    --accent: #10b981;
+    --shadow-sm: 0 1px 2px #0006;
+    --shadow-md: 0 4px 8px #00000080;
+    --shadow-lg: 0 10px 18px #0009;
+
+    --md-primary-fg-color: var(--primary);
+    --md-primary-fg-color--dark: var(--primary-hover);
+    --md-accent-fg-color: var(--accent);
+    --md-default-bg-color: var(--bg);
+    --md-default-fg-color: var(--text);
+    --md-default-fg-color--light: var(--text-secondary);
+    --md-code-bg-color: var(--surface-secondary);
+    --md-code-fg-color: var(--text);
+    --md-typeset-color: var(--text);
+    --md-typeset-a-color: var(--primary);
+}
+
+/* Elite Refinements */
+.md-header {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.md-header__topic {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.md-nav__link--active {
+    color: var(--primary) !important;
+    font-weight: 600;
+}
+
+.md-nav__link:hover {
+    color: var(--primary);
+    background-color: var(--surface-secondary);
+}
+
+.md-grid {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+/* Mermaid Diagram Centering */
+.mermaid {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.mermaid svg {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+/* Ensure content is centered if the screen allows */
+.md-content__inner {
+    max-width: 64rem;
+    margin: 0 auto !important;
+    /* Center the main content */
+    padding-top: 2rem;
+}
+
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-radius: 8px;
+    border-left-width: 4px;
+    box-shadow: var(--shadow-sm);
+}
+
+/* Code Blocks */
+.md-typeset pre {
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Sidebar Search Customization */
+.md-search {
+    padding: 0.4rem 0.8rem;
+    border-radius: 100px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--muted);
+}
+
+.md-search__input {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: var(--text) !important;
+    padding-left: 2rem !important;
+}
+
+.md-search__input::placeholder {
+    color: var(--text) !important;
+    opacity: 0.7 !important;
+}
+
+.md-search {
+    background: transparent !important;
+}
+
+.md-search__icon {
+    color: var(--text) !important;
+}
+
+.md-search__form {
+    background: transparent !important;
+    border: none !important;
+}
+
+.md-footer {
+    display: none;
+}
