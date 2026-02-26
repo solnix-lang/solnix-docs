@@ -1,155 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://solnix.org/docs/</loc>
+         <loc>https://docs.solnix-lang.org/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/compiler/architecture/</loc>
+         <loc>https://docs.solnix-lang.org/compiler/architecture/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/compiler/codegen/</loc>
+         <loc>https://docs.solnix-lang.org/compiler/codegen/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/compiler/ir-design/</loc>
+         <loc>https://docs.solnix-lang.org/compiler/ir-design/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/contributing/compiler-contrib/</loc>
+         <loc>https://docs.solnix-lang.org/contributing/compiler-contrib/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/contributing/docs-contrib/</loc>
+         <loc>https://docs.solnix-lang.org/contributing/docs-contrib/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/contributing/style-guide/</loc>
+         <loc>https://docs.solnix-lang.org/contributing/style-guide/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/helpers/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/helpers/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/limitations/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/limitations/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/maps/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/maps/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/memory-model/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/memory-model/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/overview/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/overview/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/program-types/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/program-types/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/ebpf/verifier/</loc>
+         <loc>https://docs.solnix-lang.org/ebpf/verifier/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/examples/execve-filename-monitor/</loc>
+         <loc>https://docs.solnix-lang.org/examples/execve-filename-monitor/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/examples/process-exit-counter/</loc>
+         <loc>https://docs.solnix-lang.org/examples/process-exit-counter/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/examples/process-fork-monitor/</loc>
+         <loc>https://docs.solnix-lang.org/examples/process-fork-monitor/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/examples/sys-openat-counter/</loc>
+         <loc>https://docs.solnix-lang.org/examples/sys-openat-counter/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/examples/xdp-drop-all/</loc>
+         <loc>https://docs.solnix-lang.org/examples/xdp-drop-all/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/getting-started/installation/</loc>
+         <loc>https://docs.solnix-lang.org/getting-started/installation/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/getting-started/quickstart/</loc>
+         <loc>https://docs.solnix-lang.org/getting-started/quickstart/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/getting-started/toolchain/</loc>
+         <loc>https://docs.solnix-lang.org/getting-started/toolchain/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/control_flow/</loc>
+         <loc>https://docs.solnix-lang.org/language/control_flow/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/ctx_helpers/</loc>
+         <loc>https://docs.solnix-lang.org/language/ctx_helpers/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/events/</loc>
+         <loc>https://docs.solnix-lang.org/language/events/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/heap/</loc>
+         <loc>https://docs.solnix-lang.org/language/heap/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/imm/</loc>
+         <loc>https://docs.solnix-lang.org/language/imm/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/maps/</loc>
+         <loc>https://docs.solnix-lang.org/language/maps/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/memory_rules/</loc>
+         <loc>https://docs.solnix-lang.org/language/memory_rules/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/reg/</loc>
+         <loc>https://docs.solnix-lang.org/language/reg/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/types/</loc>
+         <loc>https://docs.solnix-lang.org/language/types/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/language/units/</loc>
+         <loc>https://docs.solnix-lang.org/language/units/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/overview/roadmap/</loc>
+         <loc>https://docs.solnix-lang.org/overview/roadmap/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/overview/why-solnix/</loc>
+         <loc>https://docs.solnix-lang.org/overview/why-solnix/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/release-notes/</loc>
+         <loc>https://docs.solnix-lang.org/release-notes/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/release-notes/future/</loc>
+         <loc>https://docs.solnix-lang.org/release-notes/future/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/release-notes/v0.1.0/</loc>
+         <loc>https://docs.solnix-lang.org/release-notes/v0.1.0/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
     <url>
-         <loc>https://solnix.org/docs/release-notes/v0.2.0/</loc>
+         <loc>https://docs.solnix-lang.org/release-notes/v0.2.0/</loc>
          <lastmod>2026-02-26</lastmod>
     </url>
 </urlset>

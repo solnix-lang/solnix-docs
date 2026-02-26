@@ -181,3 +181,49 @@ html.dark,
 .md-footer {
     display: none;
 }
+/* Version Selector Refinements */
+.md-header__topic + .md-version {
+    margin-left: 1.5rem;
+}
+
+.md-version__button {
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: var(--text) !important;
+    background: var(--surface-secondary) !important;
+    padding: 0.3rem 0.8rem !important;
+    border-radius: 6px !important;
+    border: 1px solid var(--border) !important;
+    transition: all 0.2s ease;
+}
+
+.md-version__button:hover {
+    border-color: var(--primary) !important;
+    background: var(--surface) !important;
+}
+
+.md-version__list {
+    background-color: var(--surface) !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: var(--shadow-lg) !important;
+    border-radius: 8px !important;
+    padding: 0.5rem 0 !important;
+}
+
+.md-version__link {
+    color: var(--text) !important;
+    font-size: 0.75rem !important;
+    padding: 0.5rem 1rem !important;
+    transition: background 0.2s ease;
+}
+
+.md-version__item:hover .md-version__link {
+    background-color: var(--surface-secondary) !important;
+    color: var(--primary) !important;
+}
+
+/* Ensure header elements are properly aligned */
+.md-header__inner {
+    display: flex;
+    align-items: center;
+}
