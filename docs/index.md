@@ -66,6 +66,6 @@ unit trace_exec {
 
 Solnix is under active development.
 
-APIs may change until v1.0.
+APIs may change until v1.0.*
 
 ---
